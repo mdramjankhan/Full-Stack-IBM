@@ -1,0 +1,11 @@
+.parent > p {
+    background-color: green;
+}
+
+.child > p {
+    background-color: yellow;
+}
+
+.grandchild > p {
+    background-color: red;
+}
