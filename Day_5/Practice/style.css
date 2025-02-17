@@ -1,3 +1,17 @@
+
+* {
+    background-color: aliceblue;
+}
+
+p {
+    height: 2rem;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    padding-top: 10px;
+}
+
 .parent > p {
     background-color: green;
 }
@@ -8,4 +22,8 @@
 
 .grandchild > p {
     background-color: red;
+}
+
+.greatgrandchild> p {
+    background-color: peru;
 }
