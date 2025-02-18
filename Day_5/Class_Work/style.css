@@ -1,4 +1,4 @@
-/* * {
+/* /* * {
     margin: 0;
     padding: 0;
 } */
@@ -8,7 +8,7 @@
 } */
 
 
-p {
+/* p {
     background-color: aquamarine;
 }
 
@@ -31,4 +31,33 @@ div>p {
 
 .parent> p {
     background-color: green;
+} */ 
+
+/* Adjacent sivling */
+
+/* #para-siv + h1 {
+    background-color: blue;
+} */
+
+/* general sivling */
+
+/* #para-siv ~ h1 {
+    background-color: red;
+}
+
+/* input css */
+/* input[type=text] {
+    background-color: grey;
+    border: none;
+    height: 1rem;
+    color: aliceblue;
+}  */
+
+
+
+div {
+    overflow:scroll;
+    /* overflow: hidden; */
+    /* overflow-wrap: anywhere; */
+    overflow: auto;
 }
