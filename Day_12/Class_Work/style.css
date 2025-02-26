@@ -1,0 +1,65 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("https://images.unsplash.com/photo-1512203492609-972c16baa28b?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
+    background-image: url("https://images.unsplash.com/photo-1465429103920-30e481ab35b4?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    
+}
+#parent {
+    width: 305px;
+    height: 450px;
+    border: .2px solid black;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    backdrop-filter: blur(10px);
+}
+
+input {
+    width: 85%;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+input:focus {
+    background-color: rgb(251, 201, 107);
+}
+
+button {
+    padding: 0.5rem 2rem;
+    margin: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkblue;
+    color: white;
+    cursor: pointer;
+
+}
+
+#user-data {
+    width: 100%;
+}
+
+table {
+    border: 2px solid rgb(140 140 140);
+    border-collapse: collapse;
+    width: 80%;
+    padding: 0.6rem;
+    margin-top: 50px;
+
+}
+
+th,
+td {
+  border: 1px solid rgb(160 160 160);
+  padding: 8px 10px;
+}
