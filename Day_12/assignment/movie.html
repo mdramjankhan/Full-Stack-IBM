@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movie List</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Movie List</h1>
+        <input type="text" id="searchBar" placeholder="Search by name or genre...">
+        <table id="movieTable">
+            <thead>
+                <tr>
+                    <th>Movie Name</th>
+                    <th>Description</th>
+                    <th>Release Year</th>
+                    <th>IMDb Rating</th>
+                    <th>Genre</th>
+                    <th>Poster</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Movie rows will be dynamically inserted here -->
+            </tbody>
+        </table>
+        <p id="noMoviesMessage">No movies added yet!</p>
+        <button onclick="window.location.href='index.html'">Back to Home</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
