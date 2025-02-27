@@ -33,7 +33,7 @@ function displayMovies() {
         <td>${movie.rating}</td>
         <td>${movie.genre}</td>
         <td><img src="${movie.poster || 'default-poster.jpg'}" alt="${movie.name} Poster" width="50"></td>
-        <td><button onclick="deleteMovie('${encodeURIComponent(movie.name)}')">Delete</button></td>
+        <td><button onclick="deleteMovie('${movie.name}')">Delete</button></td>
       </tr>
     `).join("");
 }
@@ -41,7 +41,7 @@ function displayMovies() {
 
 function deleteMovie(movieName) {
     let movies = loadMovies();
-    movies = movies.filter(movie => movie.name !== decodeURIComponent(movieName));
+    movies = movies.filter(movie => movie.name !== movieName);
     localStorage.setItem("movies", JSON.stringify(movies));
     displayMovies();
 }
