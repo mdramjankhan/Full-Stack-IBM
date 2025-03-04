@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <h1>E-Commerce Store</h1>
+            <div class="search-bar">
+                <input type="text" id="searchBar" placeholder="Search products...">
+                <i class="fas fa-search"></i>
+            </div>
+            <button id="cartButton" onclick="window.location.href='cart.html'">
+                <i class="fas fa-shopping-cart"></i> Cart
+            </button>
+        </div>
+    </header>
+
+    <div class="filters">
+        <select id="categoryFilter">
+            <option value="all">All Categories</option>
+            <option value="Electronics">Electronics</option>
+            <option value="Wearable">Wearable</option>
+            <option value="Fashion">Fashion</option>
+            <option value="Accessories">Accessories</option>
+            <option value="Home & Kitchen">Home & Kitchen</option>
+            <option value="Fitness">Fitness</option>
+        </select>
+        <select id="priceFilter">
+            <option value="all">All Prices</option>
+            <option value="below50">Below $50</option>
+            <option value="50-100">$50 - $100</option>
+            <option value="above100">Above $100</option>
+        </select>
+        <select id="sortBy">
+            <option value="default"  >Sort By</option>
+            <option value="priceLowToHigh">Price: Low to High</option>
+            <option value="priceHighToLow">Price: High to Low</option>
+            <option value="rating">Rating</option>
+        </select>
+    </div>
+
+    <div id="productList" class="product-list"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
