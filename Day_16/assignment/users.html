@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users - Store</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-brand">Store</div>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="index.html">Products</a>
+            <a href="users.html">Users</a>
+            <button id="theme-toggle">Toggle Dark Mode</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="controls">
+            <input type="text" id="user-search" placeholder="Search users...">
+            <select id="user-sort">
+                <option value="">Sort By</option>
+                <option value="name-asc">Name: A-Z</option>
+                <option value="name-desc">Name: Z-A</option>
+            </select>
+            <select id="user-filter">
+                <option value="">All Cities</option>
+            </select>
+        </div>
+        <div id="loading" class="loading">Loading...</div>
+        <div id="users-grid" class="grid"></div>
+        <div id="error" class="error hidden"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
