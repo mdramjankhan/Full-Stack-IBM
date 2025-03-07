@@ -83,7 +83,7 @@ function displayVideos(videos) {
     });
 }
 
-// Search Functionality
+
 const debouncedSearch = debounce((query) => loadVideos(query), 300);
 
 searchInput.addEventListener('input', (e) => {
