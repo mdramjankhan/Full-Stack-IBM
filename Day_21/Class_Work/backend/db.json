@@ -1,0 +1,64 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    },
+    {
+      "id": "1c0e",
+      "title": "may be good for nothing",
+      "views": 0.4248274322570107
+    },
+    {
+      "id": "32df",
+      "title": "this is new data",
+      "views": 0.9441297118342047
+    },
+    {
+      "id": "6df1",
+      "title": "Hello new fellow",
+      "views": 0.3806621914485684
+    },
+    {
+      "id": "fd6f",
+      "title": "May be Tomorrow",
+      "views": 0.675223391112852
+    },
+    {
+      "id": "fe14",
+      "title": "A bright side of life",
+      "views": 0.440953365746674
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "SVU": [
+    {
+      "id": "1",
+      "text": "Training"
+    },
+    {
+      "id": "1",
+      "text": "Nothing"
+    }
+  ]
+}
