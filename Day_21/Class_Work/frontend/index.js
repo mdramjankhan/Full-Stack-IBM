@@ -61,6 +61,7 @@ async function showData(arr) {
             }
         });
 
+
         deleteBtn.addEventListener('click', () => {
             let id = el.id;
             fetch(`http://localhost:3000/posts/${id}`, {
@@ -74,7 +75,7 @@ async function showData(arr) {
                     console.log(e);
                 });
 
-        })
+        });
 
     });
 }

@@ -1,51 +1,101 @@
 {
   "posts": [
     {
-      "id": "1",
-      "title": "a title",
-      "views": 100
+      "id": "2a52",
+      "title": "",
+      "views": 0.5666214278675399
     },
     {
-      "id": "2",
-      "title": "another title",
-      "views": 200
+      "id": "63d0",
+      "title": "",
+      "views": 0.16457598943312313
     },
     {
-      "id": "1c0e",
-      "title": "may be good for nothing",
-      "views": 0.4248274322570107
+      "title": "sda",
+      "views": 0.5736909660367207,
+      "id": "bd38"
     },
     {
-      "id": "32df",
-      "title": "this is new data",
-      "views": 0.9441297118342047
+      "id": "fe9e",
+      "title": "",
+      "views": 0.4436313887232639
     },
     {
-      "id": "6df1",
-      "title": "Hello new fellow",
-      "views": 0.3806621914485684
+      "id": "7b73",
+      "title": "",
+      "views": 0.44760855994850823
     },
     {
-      "id": "fd6f",
-      "title": "May be Tomorrow",
-      "views": 0.675223391112852
+      "id": "343f",
+      "title": "",
+      "views": 0.26049579304438764
     },
     {
-      "id": "fe14",
-      "title": "A bright side of life",
-      "views": 0.440953365746674
+      "id": "d461",
+      "title": "",
+      "views": 0.4215482839096063
+    },
+    {
+      "id": "d98a",
+      "title": "",
+      "views": 0.2368168445992085
+    },
+    {
+      "id": "ee1b",
+      "title": "",
+      "views": 0.9747439918398009
+    },
+    {
+      "id": "da59",
+      "title": "",
+      "views": 0.171750629495228
+    },
+    {
+      "id": "cc50",
+      "title": "",
+      "views": 0.48253782604813167
+    },
+    {
+      "id": "0adf",
+      "title": "",
+      "views": 0.32660257376413515
+    },
+    {
+      "id": "1976",
+      "title": "",
+      "views": 0.6675464801105668
+    },
+    {
+      "id": "7bdc",
+      "title": "",
+      "views": 0.28278138335549285
+    },
+    {
+      "id": "9c37",
+      "title": "",
+      "views": 0.38254236376995543
+    },
+    {
+      "id": "dab1",
+      "title": "",
+      "views": 0.25232199926667587
+    },
+    {
+      "id": "cc57",
+      "title": "",
+      "views": 0.5120393757029162
     }
   ],
   "comments": [
     {
       "id": "1",
       "text": "a comment about post 1",
-      "postId": "1"
+      "postId": null
     },
     {
       "id": "2",
       "text": "another comment about post 1",
-      "postId": "1"
+      "postId": null
     }
   ],
   "profile": {
