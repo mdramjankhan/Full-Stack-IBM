@@ -8,23 +8,18 @@ const morgan = require('morgan');
 
 const app = express();
 
-// Enable CORS
 app.use(cors({
     origin: 'http://127.0.0.1:5500',
     credentials: true,
 }));
 
-// Parse JSON bodies
 app.use(express.json());
 app.use(morgan('dev'));
 
-// Connect to MongoDB
 connectDB();
 
-// Routes
 app.use('/api/auth', authRoutes);
 
-// Protected Route
 app.get('/api/protected', protect, (req, res) => {
     res.json({ message: 'This is a protected route', user: req.user });
 });
