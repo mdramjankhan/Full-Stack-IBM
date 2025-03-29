@@ -14,9 +14,9 @@ async function fetchProducts() {
         const div = document.createElement('div');
         div.className = 'border rounded-lg p-4 shadow-md';
         div.innerHTML = `
-      <img src="${product.image || 'https://via.placeholder.com/150'}" alt="${product.name}" class="w-full h-48 object-cover">
+      <img src="${product.image}" alt="${product.name}" class="w-full h-48 object-cover">
       <h3 class="text-lg font-semibold">${product.name}</h3>
-      <p>₹${product.price}</p> <!-- Changed $ to ₹ -->
+      <p>₹${product.price}</p>
       <button onclick="addToCart('${product._id}')" class="bg-blue-500 text-white px-4 py-2 rounded mt-2">Add to Cart</button>
     `;
         productList.appendChild(div);
@@ -36,7 +36,7 @@ function handleScroll() {
 async function addToCart(productId) {
     const token = localStorage.getItem('token');
     if (!token) {
-        Toastify({ text: 'Please log in first', background: 'red' }).showToast();
+        Toastify({ text: 'Please log in first', background: 'red' , duration: 3000,}).showToast();
         return;
     }
 
@@ -50,7 +50,18 @@ async function addToCart(productId) {
             body: JSON.stringify({ productId, quantity: 1 }),
         });
         if (!response.ok) throw new Error('Failed to add to cart');
-        Toastify({ text: 'Added to cart', background: 'green' }).showToast();
+        Toastify({
+            text: "The product is added to cart",
+            duration: 3000,
+            newWindow: true,
+            close: true,
+            gravity: "top", // `top` or `bottom`
+            position: "center", // `left`, `center` or `right`
+            stopOnFocus: true, // Prevents dismissing of toast on hover
+            style: {
+                background: "green",
+            },
+        }).showToast();
     } catch (err) {
         Toastify({ text: 'Error adding to cart', background: 'red' }).showToast();
     }
