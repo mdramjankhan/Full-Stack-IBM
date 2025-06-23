@@ -1,7 +1,7 @@
 # IBM Full Stack Development Training - Final Project
 
 ## 🎓 About the Training
-This repository contains all projects, assignments, and the **final project** completed as part of the **IBM Full Stack Development Training**. Over the course of **50 days**, we explored modern web development technologies, building multiple projects and culminating in the **final presentation on March 26, 2025, in front of the IBM team**.
+This repository contains all projects, assignments, and the **final project** completed as part of the **IBM Full Stack Development Training**. Over the course of **50 days**, we explored modern web development technologies, building multiple projects and culminating in the **final presentation on March 26, 2025, in front of the IBM team**..
 
 ## 🛠 Tech Stack & Skills Learned
 Throughout this training, we covered a wide range of **Full Stack technologies**, including:
